@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik+Scribble&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    background-color: rgb(226, 187, 143);
+}
+header {
+position:absolute;
+top: 0;
+left: 0;
+width:auto;
+padding: 20px 20%;
+background-color:transparent;
+display: flex;
+z-index: 300;
+}
+.logo {
+    justify-content: baseline;
+    font-size: 20px;
+    color: rgb(75, 20, 20);
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 18px;
+    color: rgb(61, 44, 24);
+    text-decoration: none;
+    font-weight: 200;
+    margin-left:100px;
+    transition: 1s;
+}
+.navbar a:hover,
+.navbar a.active {
+color: rgba(247, 244, 64, 0.637);
+}
+.sobre {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.sobre-content {
+max-width: 500px;
+}
+.sobre-content h1{
+    font-size: 57px;
+    font-weight: 700;
+}
+.sobre-content h3 {
+font-size: 28px;
+font-weight: 700;
+color: rgb(112, 65, 101);
+}
+.sobre-content p {
+font-size: 16px;
+}
+.sobre-sci {
+    position: absolute;
+    bottom: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.sobre-sci a {
+    position:relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 40px;
+    color:rgb(125, 137, 245);
+    text-decoration: none;
+    overflow: hidden;
+}
+.sobre-sci a::before {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: aqua;
+    z-index: -1;
+    transition: 5s;
+}
