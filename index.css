@@ -1,29 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik+Scribble&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
 .quadrado {
     width: 250px;
-    height: 800px;
+    height: 100vh;
     background-color: rgb(211, 167, 100);
 }
+
 .fotoAnajulia {
-border-radius: 50%;
-width: 200px;
-height: 190px;
-position: relative;
-top: 20px;
-left: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border: 2px solid black;
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 5s ease;
 }
-.meucontato {
+
+.fotoAnajulia-content:hover img .meucontato {
     position: relative;
     top: 20px;
     left: 20px;
 }
+
 .meucontato p {
     font-size: small;
 }
+
 .meunome {
-position: relative;
-top: 20px;
-left: 20px;
-font-size:larger;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: larger;
+}
+
+.q1 {
+    width: 1035px;
+    height: 220px;
+    background-color: rgb(247, 229, 204);
+    position: relative;
+    top: -815px;
+    left: 280px;
+
 }
