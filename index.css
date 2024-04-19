@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 main {
     display: flex;
     width: 100vw;
@@ -15,60 +16,96 @@ section#quadrado {
     background-color: rgb(211, 167, 100);
     font-family: Georgia, 'Times New Roman', Times, serif;
 
-    a {
-        margin-top: 300px;
-        text-align: center;
+    mais {
+        margin-top: 50px;
+        text-align: relative;
+        margin-bottom: 35px;   
     }
-
+    
     h1 {
         margin-top: 30px;
         margin-bottom: 50px;
-        text-align: start;
+        text-align: center;
+        font-size: 30px;
     }
-
+    
     h2 {
+        position: relative;
+        left: 90px;
+        top: 20px;
         margin-top: 20px;
         margin-bottom: 30px;
         text-align: start;
     }
 }
+
 section#quadrado {
     width: 20%;
     height: 100%;
     justify-content: space-evenly;
     flex-direction: column;
+   
 }
 
-section#quadrado img 
-{
+img#fotoAnajulia {
+   
     border-radius: 50%;
     height: 150px;
     position: relative;
     left: 50px;
     top: 10px;
     border: 2px solid black;
-  
+
 }
 
 section#conteudo {
-    background-color: aqua;
+    background-color: rgb(240, 233, 211);
     width: 80%;
     height: 100%;
 }
+
 div#sobre {
     background-size: cover;
     width: 100%;
     height: 40%;
-   
-    article{
+    padding: 30px;
+
+    article {
         width: 90%;
         height: 90%;
-        background-color: blue;
+        background-color: white;
         border: 2px solid black;
-        position:relative;
-       left: 55px;
+        position: relative;
+        left: 55px;
+        padding: 12px;
+        text-align: center;
+        font-size: 30px;
     }
 }
 
+div#box {
+    width: 100%;
+    height: 60%;
+    background-color: 240, 233, 211;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
+    article {
+        height: 80%;
+        width: 30%;
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+        padding: 12px;
+        font-size: 20px;
+    }
 
+    .tecnologias {
+        text-align: center;
+        margin-top: 180px;
+        margin-bottom: 30px;
+        font-size: 20px;
+
+    }
+}
