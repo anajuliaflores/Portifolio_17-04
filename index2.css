@@ -12,8 +12,8 @@ main {
 
 section#menu {
     background-color: yellow;
-    width: 30%;
-    height: 100%;
+    width: 20%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
